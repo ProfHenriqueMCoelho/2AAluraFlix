@@ -1,0 +1,82 @@
+body{
+    color:whitesmoke;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif; 
+
+}
+header{
+    border-bottom: solid 2px rgba(176, 4, 4, 0.806);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color:rgba(176, 4, 4, 0.806);
+
+}
+.chamada{
+    background:rgba(89, 3, 118, 0.806);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.chamada-texto{
+    margin-right: 2.5%;
+
+}
+
+h1{
+    font-size: 40px;
+
+}
+
+p{
+    font-size: 20px;
+
+}
+
+.separar-clips{
+    background:rgba(89, 3, 118, 0.806);
+    border-bottom: solid 2px rgba(176, 4, 4, 0.806);
+    border-top: solid 2px rgba(176, 4, 4, 0.806);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sessao-nerd{
+    border-top: solid 2px rgba(176, 4, 4, 0.806);
+    border-bottom: solid 2px rgba(176, 4, 4, 0.806);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color:rgba(176, 4, 4, 0.806);
+    
+}
+
+img{
+    height: 200px;
+    margin-right: 0.5%;
+    padding-bottom: 40px; 
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;   
+
+}
+
+.categoria-videos { 
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.categoria-videos img {
+    opacity: 0.8;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
